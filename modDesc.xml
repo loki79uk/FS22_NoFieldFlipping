@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="61">
+	<author>loki_79</author>
+    <version>1.0.0.0</version>
+	<title>
+        <en>No Field Flipping</en>
+        <de>Kein Feild Flipping</de>
+        <fr>Pas De Retournement De Champ</fr>
+    </title>
+    <description>
+<en><![CDATA[The purpose of this mod is to prevent players from buying land so that they can gather the harvest and then immediately sell the land again.  Could be useful if you have no self control, or if you want to prevent field flipping on a multiplayer server.
+
+Features:
+- When land is purchased all contained fields are reset to a cultivated state
+- Plowed and lime states are preserved (plowing and lime options must be on)
+- Sold land remains unchanged
+- Works in multiplayer
+
+Changelog:
+v1.1.0.0 - Field retains the existing 'plowed' and 'lime' states when it is reset]]>
+</en>
+<de><![CDATA[Mit dieser Modifikation soll verhindert werden, dass Spieler Land kaufen, um die Ernte einzusammeln und das Land dann sofort wieder verkaufen. Könnte nützlich sein, wenn Sie keine Selbstkontrolle haben oder wenn Sie die Felder in einem Multi-Player Spiel nicht geändert haben wollen.
+
+Merkmale:
+- Wenn Land gekauft wird, werden alle enthaltenen Felder in einen gegrubberten Zustand zurückgesetzt
+- Pflug- und Kalkzustände werden erhalten (die Optionen Pflügen und Kalken müssen eingeschaltet sein)
+- Verkauftes Land bleibt unverändert
+- Funktioniert im Mehrspielermodus
+
+Changelog:
+v1.1.0.0 - Das Feld behält jetzt die bestehenden Zustände "gepflügt" und "Kalk" bei, wenn es zurückgesetzt wird]]>
+</de>
+<fr><![CDATA[Le but de ce mod est d'empêcher les joueurs d'acheter des terres afin de pouvoir récolter la récolte puis de revendre immédiatement les terres.  Il peut être utile si vous n'avez aucun contrôle sur vous-même, ou si vous voulez empêcher le retournement de terrain sur un serveur multijoueur.
+
+Caractéristiques:
+- Lors de l'achat d'une terre, tous les champs contenus sont remis en état de culture
+- Les états de labourage et de chaux sont préservés (les options de labourage et de chaulage doivent être activées)
+- Les terres vendues restent inchangées
+- Fonctionne en multijoueur
+
+Changelog:
+v1.1.0.0 - Le champ conserve désormais les états "labouré" et "chaux" existants lorsqu'il est remis à zéro]]>
+</fr>
+    </description>
+	
+	<multiplayer supported="true" />
+	<iconFilename>modIcon.dds</iconFilename>
+	<extraSourceFiles>
+		<sourceFile filename="NoFieldFlipping.lua" />
+	</extraSourceFiles>
+</modDesc>
